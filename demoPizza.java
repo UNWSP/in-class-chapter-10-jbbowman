@@ -3,6 +3,7 @@ public class demoPizza {
         Pizza pizza1 = new Pizza("Cheese", 5);
         DeliveryPizza pizza2 = new DeliveryPizza("Pepperoni", 7, "112 Boogey Ave.");
 
-
+        pizza1.printPizza();
+        pizza2.printPizza();
     }
 }
