@@ -1,6 +1,6 @@
 public class Horse {
-    String name, color;
-    int birthYear;
+    protected String name, color;
+    protected int birthYear;
 
     public String getName() {return name;}
     public void setName(String name) {this.name = name;}
